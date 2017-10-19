@@ -14,6 +14,9 @@ Questions
  mark true
  add one point.
 */
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
 
 // START BUTTON TO ACCESS QUIZ
 //*******************************************************
@@ -63,7 +66,6 @@ if (qFive == "rightAnswer"){
 	document.getElementById("resultI"),innerHTML = "Wrong Answers: " + wrong;
 	document.getElementById("resultU"),innerHTML = "Unanswered: " + unanswered;
 
-}
 
 
 	
